@@ -1,0 +1,76 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+/* Header and Navigation Styles */
+.navegacionPrincipal {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLogos {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+}
+
+.navMenu, .navMenuDerecha {
+    list-style: none;
+    display: flex;
+}
+
+.navMenu li, .navMenuDerecha li {
+    margin: 0 10px;
+}
+
+/* Content Styles */
+.contenidoPrincipal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.muestraEncabezado {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.temaImagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.temaImagenes div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Footer Styles */
+.enlace-pie-pagina {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contenidoPiePagina ul {
+    list-style: none;
+}
+
+.piePagina {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

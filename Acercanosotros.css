@@ -1,0 +1,85 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+hr {
+    border: 0.5px solid #ddd;
+}
+
+
+.navegacionPrincipal {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navMenu, .navMenuDerecha {
+    list-style: none;
+    display: flex;
+}
+
+.navMenu li, .navMenuDerecha li {
+    margin: 0 15px;
+}
+
+.navMenu a, .navMenuDerecha a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menuBoton {
+    cursor: pointer;
+    display: none;
+}
+
+
+.muestraEncabezado {
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+.contenidoAcercaDe {
+    margin: 30px 0;
+}
+
+
+.piePagina {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.galeriaImagenes {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 30%;
+    margin-bottom: 15px;
+}
